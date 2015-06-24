@@ -1,4 +1,4 @@
-FUNCTION distant_from_point_to_lines(route linestring, point1 point)
+FUNCTION DistantFromPointToLines(route linestring, point1 point)
   RETURNS decimal(9,6)
   DETERMINISTIC
 BEGIN
